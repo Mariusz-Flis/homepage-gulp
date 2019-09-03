@@ -54,11 +54,11 @@ const myAge= 39;
 welcome(myName,myAge);
 welcome('Mariusz', 39);
 
-const navigationSwitcher = document.querySelector('.navigation__switcher--js')
+const navigationSwitcher = document.querySelector('.siteHeader__navSwitcher--js')
 
 navigationSwitcher.addEventListener('click', (e) => { 
-const navigationList = document.querySelector('.navigation__list--js');
-navigationList.classList.toggle('navigation__list--visible');
+const navigationList = document.querySelector('.siteHeader__navList--js');
+navigationList.classList.toggle('siteHeader__navList--visible');
 });
 
 console.log(`Mam na imię ${name} mam ${age} lat, 🙈🙉🙊 to moja pierwsza strona WWW, i skrypt w JS 🛸`)
